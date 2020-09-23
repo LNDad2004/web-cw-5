@@ -11,6 +11,10 @@ body {
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.808);
   height: 100%;
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
 }
 /* ---------- في كل مطلوب display: flex يجب اضافة ---------- */
 /* ------------- فقط flex عدل على تحت تعليقات  ------------- */
@@ -78,6 +82,7 @@ body {
 .imgs {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 img {
   width: 150px;
